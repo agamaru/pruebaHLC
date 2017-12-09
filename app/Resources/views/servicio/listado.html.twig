@@ -4,4 +4,24 @@
 
 {% block content %}
     <h1>Listado de servicios</h1>
+    <table border="1px">
+        <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Autor</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for servicio in servicios %}
+            <tr>
+                <td></td>
+                <td>{{ servicio.titulo }}</td>
+                <td>{{ servicio.descripcion }}</td>
+                <td>{{ servicio.autor }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
