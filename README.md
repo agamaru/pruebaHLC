@@ -1,4 +1,4 @@
-.checkout
+Value
 =========
 
-A Symfony project created on December 9, 2017, 5:40 am.
+Aplicación web para gestionar servicios entre usuarios.
